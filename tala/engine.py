@@ -4,7 +4,7 @@ from __future__ import print_function
 from sqlalchemy import create_engine
 from sqlalchemy.sql import select
 from collections import OrderedDict
-from util.iterable import grouper
+from .util.iterable import grouper
 import sqlite3
 import time
 
